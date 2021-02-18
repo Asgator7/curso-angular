@@ -5,7 +5,7 @@ import {
     EventRouterActivator,
     EventListComponent,
     EventListResolver
-} from './events/index'
+} from './events/index';
 import { Error404Component } from './errors/404.component';
 
 export const AppRoutes: Routes = [
