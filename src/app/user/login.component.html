@@ -1,7 +1,7 @@
 <h1>Login</h1>
 <hr>
 <div class="col-md-4">
-  <form #loginForm="ngForm" autocomplete="off" (ngSubmit)="login(loginForm.value)" >
+  <form #loginForm="ngForm" autocomplete="off" (ngSubmit)="loginForms(loginForm.value)" >
     <div class="form-group"  >
       <label for="userName">User Name:</label>
       <input (ngModel)="userName" id="userName" name="userName" type="text" class="form-control" placeholder="User Name..." />
